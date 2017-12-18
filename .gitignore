@@ -1,0 +1,44 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+*target*
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### MacOs System Files ###
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Maven
+log/
+target/
+target
+
+*.class
+*.settings
+*.project
+*.classpath
