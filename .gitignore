@@ -1,44 +1,42 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-*target*
-# Package Files #
-*.jar
-*.war
-*.ear
-
-### MacOs System Files ###
-.DS_Store
-
-# Eclipse
-.classpath
-.project
-.settings/
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# Maven
-log/
-target/
-target
-
+# Compiled source #
+###################
+*.com
 *.class
-*.settings
-*.project
-*.classpath
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.project
+.classpath
+.idea
+*.iml
+atlassian-ide-plugin.xml
+target
